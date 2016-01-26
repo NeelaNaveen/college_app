@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Students:</strong>
+  <%= @registration_room.students %>
+</p>
+
+<p>
+  <strong>Courses:</strong>
+  <%= @registration_room.courses %>
+</p>
+
+<p>
+  <strong>Semester:</strong>
+  <%= @registration_room.semester %>
+</p>
+
+<%= link_to 'Edit', edit_registration_room_path(@registration_room) %> |
+<%= link_to 'Back', registration_rooms_path %>

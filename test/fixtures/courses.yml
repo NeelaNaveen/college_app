@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  number: MyString
+  description: MyString
+  professor_id: 
+  class_room_id: 
+
+two:
+  number: MyString
+  description: MyString
+  professor_id: 
+  class_room_id: 
